@@ -47,5 +47,30 @@ pytest --browser chromium
 ```
 
 
+## Playwright codegen
+
+> We can speed up writing of tests by using codegen
+
+If we want to get locators and any 
+
+```
+playwright codegen $BASE_URL
+
+```
+
+We can record any session with the recorder in order to create any given steps or code
+
+
+
+## Trace Viewer Debugging
+
+We can upload the trace to:
+
+> https://trace.playwright.dev
+
+OR
+
+just pass the --show-trace command
+
 
 
