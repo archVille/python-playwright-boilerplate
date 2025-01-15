@@ -138,3 +138,4 @@ dmypy.json
 
 # Playwright test results
 test-results/
+/report/
