@@ -10,4 +10,3 @@ def test_Start_Confirm(page):
      page.goto('/')
      page.click('[aria-label="Συναίνεση"]')
      
-     
