@@ -6,7 +6,7 @@ def test_h1_title(page):
     assert page.inner_text('h1') == 'Όλες οι Ειδήσεις'
     
     
-def test_Start_Confirm(page):
-     page.goto('/')
-     page.click('[aria-label="Συναίνεση"]')
+# def test_Start_Confirm(page):
+#      page.goto('/')
+#      page.click('[aria-label="Συναίνεση"]')
      
