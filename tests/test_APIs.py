@@ -10,3 +10,15 @@ from playwright.sync_api import Playwright, APIRequestContext
 #     )
 #     yield request_context
 #     request_context.dispose()
+
+import requests
+
+import requests
+import pytest
+
+BASE_URL = "https://jsonplaceholder.typicode.com"
+
+def test_get_todo_status_code():
+    response = requests.get(f"{BASE_URL}/todos/1")
+    assert response.status_code == 200
+
